@@ -27,7 +27,7 @@ elif answer3 == "C":
 answer4 = input("Would you want A sister, B brother C sister and brother")
 if answer4 == "A" and answer4 == "B":
     nicky_points += 1
-elif answer4 == "B":
+elif answer4 == "C":
     dicky_points += 1
     ricky_points += 1 
 
@@ -36,8 +36,13 @@ if answer5 == "A":
     nicky_points += 1
 elif answer5 == "B":
     dicky_points += 1
+elif answer5 == "C":
     ricky_points += 1 
 
-print(f"Your score is {nicky_points} nicky, {dicky_points} dicky, {ricky_points} ricky")
-    
-
+#End: determine results 
+if dicky_points > nicky_points and dicky_points > ricky_points:
+    print("You are a dicky person")
+if nicky_points > dicky_points and nicky_points > ricky_points:
+    print("You are a nicky person")
+if ricky_points > nicky_points and ricky_points >dicky_points:
+    print("You are a ricky person")
