@@ -3,7 +3,7 @@ from utils import *
 set_background("summer")
 
 s1 = create_sprite("basketball", 100, 100)
-s2 = create_sprite("Flilpina", -100, 100)
+s2 = create_sprite("flil", -100, 100)
 s3 = create_sprite("cardinal", -100, -100)
 s4 = create_sprite("cardinal", 100, -100)
 

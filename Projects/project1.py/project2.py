@@ -25,7 +25,7 @@ elif answer3 == "C":
     ricky_points += 1 
 
 answer4 = input("Would you want A sister, B brother C sister and brother")
-if answer4 == "A" and answer4 == "B":
+if answer4 == "A":
     nicky_points += 1
 elif answer4 == "C":
     dicky_points += 1
