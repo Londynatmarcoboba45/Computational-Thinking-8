@@ -25,9 +25,11 @@ t4 = create_sprite("Bunny 45 mXU",x4,y4)
 # # Section 3 - Racing
 # # TODO - set how much each variable changes by and increase the number of repeats to at least 30
 # # TODO - explain here which sprites are faster or slower
+
 # So player 2 which is the Flower is the slowest and the Basketball is just a little faster than the flower but almost the same speep
 # Now the faster sprites which the turtle and the bunny, and I put the turtle as the fastest because in life they are slow so I thought
 # it would be nice to see a turtle go fast. 
+
 for i in range(30):
     x1 += random.randint (2,5)
     x2 += random.randint (2,2)
